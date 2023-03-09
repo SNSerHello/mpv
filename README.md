@@ -94,7 +94,7 @@ Example:
     sudo apt install meson libass-dev
     export PKG_CONFIG_PATH=$FFMPEG_ROOT/lib/pkgconfig
     
-    meson setup build
+    meson setup build -Dprefix=`pwd`/dist
     meson compile -C build
     meson install -C build
 
