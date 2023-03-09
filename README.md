@@ -92,7 +92,7 @@ your build directory.
 
 Example:
 
-    sudo apt install meson
+    sudo apt install meson libass-dev
     
     meson setup build
     meson compile -C build
