@@ -92,6 +92,8 @@ your build directory.
 
 Example:
 
+    sudo apt install meson
+    
     meson setup build
     meson compile -C build
     meson install -C build
