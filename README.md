@@ -2,7 +2,6 @@
 
 # mpv
 
-
 * [External links](#external-links)
 * [Overview](#overview)
 * [System requirements](#system-requirements)
@@ -93,6 +92,7 @@ your build directory.
 Example:
 
     sudo apt install meson libass-dev
+    export PKG_CONFIG_PATH=$FFMPEG_ROOT/lib/pkgconfig
     
     meson setup build
     meson compile -C build
