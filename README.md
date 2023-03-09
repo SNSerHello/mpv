@@ -91,7 +91,7 @@ your build directory.
 
 Example:
 
-    sudo apt install meson libass-dev libbiococoa-dev
+    sudo apt install meson libass-dev libbiococoa-dev libsdl2-dev
     export PKG_CONFIG_PATH=$FFMPEG_ROOT/lib/pkgconfig
     
     meson setup build -Dprefix=`pwd`/dist -Dsdl2=auto
