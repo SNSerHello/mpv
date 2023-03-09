@@ -94,7 +94,7 @@ Example:
     sudo apt install meson libass-dev libbiococoa-dev
     export PKG_CONFIG_PATH=$FFMPEG_ROOT/lib/pkgconfig
     
-    meson setup build -Dprefix=`pwd`/dist
+    meson setup build -Dprefix=`pwd`/dist -Dsdl2=auto
     meson compile -C build
     meson install -C build
 
