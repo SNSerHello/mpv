@@ -102,7 +102,10 @@ Example:
     
     export PKG_CONFIG_PATH=$FFMPEG_ROOT/lib/pkgconfig
     
-    meson setup build -Dprefix=`pwd`/dist -Dsdl2=auto
+    meson setup build \
+        -Dprefix=`pwd`/dist \
+        -Dsdl2=enabled \
+        -Dlibmpv=true
     meson compile -C build
     meson install -C build
 
