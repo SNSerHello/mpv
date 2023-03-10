@@ -96,7 +96,9 @@ Example:
         libass-dev \
         libbiococoa-dev \
         libsdl2-dev \
-        libxpresent-dev
+        libxpresent-dev \
+        lua5.1 \
+        liblua5.1-0-dev
     
     export PKG_CONFIG_PATH=$FFMPEG_ROOT/lib/pkgconfig
     
